@@ -11,4 +11,4 @@ cash_back = float(cash) - float(total_after_tax)
 #The next line rounds cash_back to the second decimal place
 cash_back_round = round(cash_back, 2)
 print("The cashier should have given you $" + str(cash_back_round) + " back.")
-input("Press enter to exit: ")
+
